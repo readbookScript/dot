@@ -26,7 +26,7 @@ log = { version = "0.4.17", default-features = false }
 polkadot-parachain = { path = "../../parachain", default-features = false }
 
 [dev-dependencies]
-primitive-types = "0.12.1"
+primitive-types = "0.12.2"
 pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "master" }
 pallet-xcm = { path = "../pallet-xcm" }
 pallet-salary = { git = "https://github.com/paritytech/substrate", branch = "master" }
