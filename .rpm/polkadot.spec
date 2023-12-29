@@ -1,17 +1,5 @@
 %define debug_package %{nil}
 
-Name: polkadot
-Summary: Implementation of a https://polkadot.network node in Rust based on the Substrate framework.
-Version: @@VERSION@@
-Release: @@RELEASE@@%{?dist}
-License: GPLv3
-Group: Applications/System
-Source0: %{name}-%{version}.tar.gz
-
-Requires: systemd, shadow-utils
-Requires(post): systemd
-Requires(preun): systemd
-Requires(postun): systemd
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
